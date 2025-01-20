@@ -1,0 +1,194 @@
+---
+- summary: |
+    Проверка регистрации при помощи email
+  requirement: |
+    Пользователь должен иметь возможность зарегистрироваться при помощи email, GitHub или Discord
+  prerequisites: |
+    Открыта страница сайта https://codebattle.hexlet.io/
+  test-data: |
+    No data
+  steps:
+    - Открыть форму регистрации
+    - Ввести имя в поле 'Nickname'
+    - Ввести почту в поле 'Email'
+    - Ввести пароль в поле 'Password'
+    - Ввести пароль повторно в поле 'Password Confirmation'
+    - Нажать на отправку данных
+  expected-result: |
+    Пользователь успешно зарегистрирован
+
+- summary: |
+    Провека регистрации при помощи GitHub
+  requirement: |
+    Пользователь должен иметь возможность зарегистрироваться при помощи email, GitHub или Discord
+  prerequisites: |
+    Есть аккаунт в GitHub
+    Открыта страница сайта https://codebattle.hexlet.io/
+  test-data: |
+    No data
+  steps:
+    - Открыть форму регистрации
+    - Выбрать регистрацию при помощи GitHub
+    - Ввести логин и пароль GitHub
+  expected-result: |
+    Регистрация при помощи GitHub прошла успешно
+
+- summary: |
+    Проверка регистрации при помощи Discord
+  requirement: |
+    Пользователь должен иметь возможность зарегистрироваться при помощи email, GitHub или Discord
+  prerequisites: |
+    Есть аккаунт в Discord
+    Открыта страница сайта https://codebattle.hexlet.io/
+  test-data: |
+    No data
+  steps:
+    - Открыть форму регистрации
+    - Выбрать регистрацию при помощи Discord
+    - Ввести логин и пароль Discord
+  expected-result: |
+    Регистрация при помощи Discord прошла успешно
+
+- summary: |
+    Описание
+  requirement: |
+    Требование
+  prerequisites: |
+    Условия
+  test-data: |
+    Тестовые данные
+  steps:
+    - 
+  expected-result: |
+    Ожидаемые рез
+
+- summary: |
+    Описание
+  requirement: |
+    Требование
+  prerequisites: |
+    Условия
+  test-data: |
+    Тестовые данные
+  steps:
+    - 
+  expected-result: |
+    Ожидаемые рез
+
+- summary: |
+    Описание
+  requirement: |
+    Требование
+  prerequisites: |
+    Условия
+  test-data: |
+    Тестовые данные
+  steps:
+    - 
+  expected-result: |
+    Ожидаемые рез
+
+- summary: |
+    Описание
+  requirement: |
+    Требование
+  prerequisites: |
+    Условия
+  test-data: |
+    Тестовые данные
+  steps:
+    - 
+  expected-result: |
+    Ожидаемые рез
+
+- summary: |
+    Описание
+  requirement: |
+    Требование
+  prerequisites: |
+    Условия
+  test-data: |
+    Тестовые данные
+  steps:
+    - 
+  expected-result: |
+    Ожидаемые рез
+
+- summary: |
+    Описание
+  requirement: |
+    Требование
+  prerequisites: |
+    Условия
+  test-data: |
+    Тестовые данные
+  steps:
+    - 
+  expected-result: |
+    Ожидаемые рез
+
+- summary: |
+    Описание
+  requirement: |
+    Требование
+  prerequisites: |
+    Условия
+  test-data: |
+    Тестовые данные
+  steps:
+    - 
+  expected-result: |
+    Ожидаемые рез
+
+- summary: |
+    Описание
+  requirement: |
+    Требование
+  prerequisites: |
+    Условия
+  test-data: |
+    Тестовые данные
+  steps:
+    - 
+  expected-result: |
+    Ожидаемые рез
+
+- summary: |
+    Описание
+  requirement: |
+    Требование
+  prerequisites: |
+    Условия
+  test-data: |
+    Тестовые данные
+  steps:
+    - 
+  expected-result: |
+    Ожидаемые рез
+
+- summary: |
+    Описание
+  requirement: |
+    Требование
+  prerequisites: |
+    Условия
+  test-data: |
+    Тестовые данные
+  steps:
+    - 
+  expected-result: |
+    Ожидаемые рез
+
+- summary: |
+    Описание
+  requirement: |
+    Требование
+  prerequisites: |
+    Условия
+  test-data: |
+    Тестовые данные
+  steps:
+    - 
+  expected-result: |
+    Ожидаемые рез
+
