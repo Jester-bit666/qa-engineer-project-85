@@ -491,150 +491,73 @@
     Написанный код сбросился
 
 - summary: |
-    Описание
+    Проверить оптимизацию сайта
   requirement: |
-    Требование
+    Сайт должен быть разработан с учётом удобства использования и оптимизирован для скорости работы
   prerequisites: |
-    Условия
+    Открыта страница сайта https://codebattle.hexlet.io/
+    Пользователь авторизован
+    Открыт Devtools
   test-data: |
     No data
   steps:
-    - 
+    - В Devtools открыть вкладку Network
   expected-result: |
-    Ожидаемые рез
+    Сайт оптимизирован для скорости работы
 
 - summary: |
-    Описание
+    Проверить адаптивность под разные мобильные устройства
   requirement: |
-    Требование
+    Сайт должен быть удобным на мобильном устройстве
   prerequisites: |
-    Условия
+    Открыта страница сайта https://codebattle.hexlet.io/
+    Пользователь авторизован
+    Открыт Devtools
   test-data: |
-    No data
+    Различные мобильные устройства
   steps:
-    - 
+    - Открыть Toggle device toolbar
+    - Проверить различные устройства
   expected-result: |
-    Ожидаемые рез
+    Сайт адаптивен под мобильные устройства
 
 - summary: |
-    Описание
+    Проверить совместимость с другими браузерами
   requirement: |
-    Требование
+    Сайт должен быть протестирован на совместимость с последними версиями браузеров
   prerequisites: |
-    Условия
+    Открыта страница сайта https://codebattle.hexlet.io/ на разных обновленных до последней версии браузерах
   test-data: |
-    No data
+    Google Chrome, Mozilla Firefox, Opera
   steps:
-    - 
+    - Проверить сайт на других браузерах
   expected-result: |
-    Ожидаемые рез
+    Сайт совместим с последними версиями браузеров
 
 - summary: |
-    Описание
+    Проверка переходов между страницами
   requirement: |
-    Требование
+    Переходы между страницами работают корректно
   prerequisites: |
-    Условия
+    Открыта страница сайта https://codebattle.hexlet.io/
   test-data: |
     No data
   steps:
-    - 
+    - Произвольно лазать по страницам сайта
   expected-result: |
-    Ожидаемые рез
+    Переходы работают корректно
 
 - summary: |
-    Описание
+    Проверить, остается ли пользователь при обновлении страницы на той же странице, на которой был
   requirement: |
-    Требование
+    При обновлении страницы пользователь остаётся на той странице, на которой перезагружался
   prerequisites: |
-    Условия
+    Открыта страница сайта https://codebattle.hexlet.io/
+    Пользователь авторизован
   test-data: |
     No data
   steps:
-    - 
+    - В таблице Leaderboard перейти в Top list
+    - Перезагрузить страницу
   expected-result: |
-    Ожидаемые рез
-
-- summary: |
-    Описание
-  requirement: |
-    Требование
-  prerequisites: |
-    Условия
-  test-data: |
-    No data
-  steps:
-    - 
-  expected-result: |
-    Ожидаемые рез
-
-- summary: |
-    Описание
-  requirement: |
-    Требование
-  prerequisites: |
-    Условия
-  test-data: |
-    No data
-  steps:
-    - 
-  expected-result: |
-    Ожидаемые рез
-
-- summary: |
-    Описание
-  requirement: |
-    Требование
-  prerequisites: |
-    Условия
-  test-data: |
-    No data
-  steps:
-    - 
-  expected-result: |
-    Ожидаемые рез
-
-- summary: |
-    Описание
-  requirement: |
-    Требование
-  prerequisites: |
-    Условия
-  test-data: |
-    No data
-  steps:
-    - 
-  expected-result: |
-    Ожидаемые рез
-
-- summary: |
-    Описание
-  requirement: |
-    Требование
-  prerequisites: |
-    Условия
-  test-data: |
-    No data
-  steps:
-    - 
-  expected-result: |
-    Ожидаемые рез
-
-- summary: |
-    Описание
-  requirement: |
-    Требование
-  prerequisites: |
-    Условия
-  test-data: |
-    No data
-  steps:
-    - 
-  expected-result: |
-    Ожидаемые рез
-
-
-
-
-
-
+    При перезагрузке страницы пользователь остался на той, на которой перезагружался
