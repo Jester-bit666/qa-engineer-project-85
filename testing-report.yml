@@ -5,137 +5,132 @@
 
 - summary: |
     Проверка регистрации при помощи GitHub
-  status: 
+  status: pass
 
 - summary: |
     Проверка регистрации при помощи Discord
-  status: 
+  status: pass
 
 - summary: |
     Проверка авторизации при помощи email
-  status: 
+  status: pass
 
 - summary: |
     Проверка авторизации при помощи GitHub и Discord
-  status: 
+  status: pass
 
 - summary: |
     Проверка валидации регистрации при вводе некорректных данных
-  status: 
+  status: pass
 
 - summary: |
     Проверка валидации авторизации, если поля вводы пусты
-  status: 
+  status: pass
 
 - summary: |
     Проверка создания игры
-  status: 
+  status: pass
 
 - summary: |
     Проверка отмены созданной игры
-  status: 
+  status: fail
 
 - summary: |
     Проверка присоединения к сторонней игре
-  status: 
+  status: pass
 
 - summary: |
     Проверка общего чата
-  status: 
+  status: pass
 
 - summary: |
     Проверка личного чата
-  status: 
+  status: pass
 
 - summary: |
     Проверить чаты на уязвимость XSS
-  status: 
+  status: pass
 
 - summary: |
     Проверка отправки приглашения в игру
-  status: 
+  status: pass
 
 - summary: |
     Проверка принятия приглашения от другого пользователя
-  status: 
+  status: fail
 
 - summary: |
     Проверка отклонения приглашения от другого пользователя
-  status: 
+  status: pass
 
 - summary: |
     Проверка списка рейтинга игроков
-  status: 
+  status: pass
 
 - summary: |
     Проверка списка турниров
-  status: 
+  status: pass
 
 - summary: |
     Проверка списка истории игр
-  status: 
+  status: pass
 
 - summary: |
     Проверка создания турнира
-  status: 
+  status: fail
 
 - summary: |
     Проверка фильтра рейтинга игроков
-  status: 
+  status: pass
 
 - summary: |
     Проверка поиска по имени в рейтинге игроков
-  status: 
+  status: pass
 
 - summary: |
     Проверка отображения окон с кодом
-  status: 
+  status: pass
 
 - summary: |
     Проверка отображения условия, времени и вывода задачи
-  status: 
+  status: pass
 
 - summary: |
     Проверка смены языка программирования на доступные в списке
-  status: 
+  status: pass
 
 - summary: |
     Проверка чата в игре
-  status: 
+  status: pass
 
 - summary: |
     Проверка запуска кода с верным решением
-  status: 
+  status: pass
 
 - summary: |
     Проверка запуска кода с не верным решением
-  status: 
+  status: pass
 
 - summary: |
     Проверка возможности сдаться
-  status: 
+  status: pass
 
 - summary: |
     Проверка сброса кода
-  status: 
-
-- summary: |
-    Проверка оптимизации сайта
-  status: 
+  status: pass
 
 - summary: |
     Проверка адаптивности под разные мобильные устройства
-  status: 
+  status: pass
 
 - summary: |
     Проверка совместимости с другими браузерами
-  status: 
+  status: pass
 
 - summary: |
     Проверка переходов между страницами
-  status: 
+  status: pass
 
 - summary: |
     Проверка, остается ли пользователь при обновлении страницы на той же странице, на которой был
-  status: 
-
+  status: pass
