@@ -32,6 +32,10 @@
   status: pass
 
 - summary: |
+    Создание нового пароля, превышая 16 символов
+  status: fail
+
+- summary: |
     Проверка создания игры
   status: pass
 
