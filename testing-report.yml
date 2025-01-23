@@ -104,6 +104,14 @@
   status: pass
 
 - summary: |
+    Проверка просмотра задач
+  status: fail
+
+- summary: |
+    Проверка создания задачи
+  status: fail
+
+- summary: |
     Проверка отображения окон с кодом
   status: pass
 
