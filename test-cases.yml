@@ -6,12 +6,12 @@
   prerequisites: |
     Открыта страница сайта https://codebattle.hexlet.io/
   test-data: |
-    No data
+    Nickname - JohnDoe25
+    Email - JohnDoe25@gmail.com
+    Password - test1
   steps:
     - Открыть форму регистрации
-    - Ввести имя в поле Nickname
-    - Ввести почту в поле Email
-    - Ввести пароль в поле Password
+    - Ввести данные
     - Ввести пароль повторно в поле Password Confirmation
     - Нажать Submit
   expected-result: |
@@ -57,8 +57,8 @@
     Открыта страница сайта https://codebattle.hexlet.io/
     Пользователь уже зарегистрирован
   test-data: |
-    testQA@gmail.com
-    password1
+    Email - JohnDoe25@gmail.com
+    Password - test1
   steps:
     - Открыть форму авторизации
     - Ввести данные
@@ -85,25 +85,43 @@
     Авторизация прошла успешно
 
 - summary: |
-    Проверка валидации регистрации при вводе некорректных данных
+    Проверка валидации регистрации при вводе некорректного email
   requirement: |
     Пользователь должен иметь возможность авторизоваться при помощи email, GitHub или Discord
   prerequisites: |
     Открыта страница сайта https://codebattle.hexlet.io/
   test-data: |
-    Nickname - JonDoe
+    Nickname - JonDoe25
     Email - JonDoe25
-    Password - 12345678910JonDoe10987654321
-    Password Confirmation - 12345678910JonDoe10987654321
+    Password - test1
+    Password Confirmation - test1
   steps:
     - Открыть форму регистрации
     - Ввести Nickname, Email, Password и Password Confirmation
     - Нажать Submit
   expected-result: |
-    Форма регистрации не должна пройти успешно. Должны появиться строки с ошибкой
+    Форма регистрации не должна пройти успешно. Должна появиться ошибка ввода элекстронной почты
 
 - summary: |
-    Проверка валидации авторизации, если поля вводы пусты
+    Проверка валидации регистрации при вводе некорректного пароля (больше 16 символов)
+  requirement: |
+    Пользователь должен иметь возможность авторизоваться при помощи email, GitHub или Discord
+  prerequisites: |
+    Открыта страница сайта https://codebattle.hexlet.io/
+  test-data: |
+    Nickname - JonDoe25
+    Email - JonDoe25@gmail.com
+    Password - test123456789101112131415161718
+    Password Confirmation - test123456789101112131415161718
+  steps:
+    - Открыть форму регистрации
+    - Ввести Nickname, Email, Password и Password Confirmation
+    - Нажать Submit
+  expected-result: |
+    Форма регистрации не должна пройти успешно. Должна появиться ошибка ввода пароля
+
+- summary: |
+    Проверка регистрации, если поля ввода пусты
   requirement: |
     Пользователь должен иметь возможность авторизоваться при помощи email, GitHub или Discord
   prerequisites: |
@@ -112,7 +130,56 @@
     No data
   steps:
     - Открыть форму регистрации
-    - Убедиться, что поля ввода пусты и нажать Submit
+    - Нажать Submit
+  expected-result: |
+    Форма регистрации не должна пройти успешно. Появилась ошибка регистрации
+
+- summary: |
+    Проверка валидации авторизации при вводе некорректного email
+  requirement: |
+    Пользователь должен иметь возможность авторизоваться при помощи email, GitHub или Discord
+  prerequisites: |
+    Открыта страница сайта https://codebattle.hexlet.io/
+    Пользователь авторизован
+  test-data: |
+    Email - JohnDoe25
+    Password - test1
+  steps:
+    - Открыть форму авторизации
+    - Ввести данные
+    - Нажать Submit
+  expected-result: |
+    Авторизация не должна пройти успешно. Появилась ошибка авторизации
+
+- summary: |
+    Проверка валидации авторизации при вводе некорректного пароля
+  requirement: |
+    Пользователь должен иметь возможность авторизоваться при помощи email, GitHub или Discord
+  prerequisites: |
+    Открыта страница сайта https://codebattle.hexlet.io/
+    Пользователь авторизован
+  test-data: |
+    Email - JohnDoe25@gmail.com
+    Password - test123456789101112131415161718
+  steps:
+    - Открыть форму авторизации
+    - Ввести данные
+    - Нажать Submit
+  expected-result: |
+    Авторизация не должна пройти успешно. Появилась ошибка авторизации
+
+- summary: |
+    Проверка валидации авторизации, если поля вводы пусты
+  requirement: |
+    Пользователь должен иметь возможность авторизоваться при помощи email, GitHub или Discord
+  prerequisites: |
+    Открыта страница сайта https://codebattle.hexlet.io/
+    Пользователь авторизован
+  test-data: |
+    No data
+  steps:
+    - Открыть форму авторизации
+    - Нажать Submit
   expected-result: |
     Авторизация не должна пройти успешно. Появилась ошибка авторизации
 
