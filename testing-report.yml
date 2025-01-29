@@ -40,10 +40,6 @@
   status: pass
 
 - summary: |
-    Проверка отмены созданной игры
-  status: fail
-
-- summary: |
     Проверка присоединения к сторонней игре
   status: pass
 
